@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Nryn OS — Your AI. Your files. Your machine.</title>
+<meta name="description" content="Nryn OS is an AI-native, local-first operating system for laptops. Your AI runs on your machine. Nothing leaves without asking.">
+<link rel="icon" href="logo.svg" type="image/svg+xml">
+<style>
+  :root {
+    --bg: #1B1B1E; --bg2: #232327; --fg: #F4F4F5; --dim: #9C9CA3;
+    --line: #333338; --accent: #FFFFFF;
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    background: var(--bg); color: var(--fg);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Noto Sans", sans-serif;
+    line-height: 1.6; -webkit-font-smoothing: antialiased;
+  }
+  .wrap { max-width: 880px; margin: 0 auto; padding: 0 24px; }
+  header.hero { text-align: center; padding: 96px 0 72px; }
+  .hero img { width: 180px; height: 180px; margin-bottom: 32px; }
+  h1 { font-size: clamp(2rem, 6vw, 3.4rem); font-weight: 700; letter-spacing: -0.02em; }
+  .tag { font-size: clamp(1.05rem, 2.6vw, 1.35rem); color: var(--dim); margin-top: 16px; }
+  .tag strong { color: var(--fg); font-weight: 600; }
+  .cta { display: inline-block; margin-top: 40px; padding: 14px 34px;
+    border: 1px solid var(--fg); border-radius: 999px; color: var(--fg);
+    text-decoration: none; font-weight: 600; transition: all .15s ease; }
+  .cta:hover { background: var(--fg); color: var(--bg); }
+  .sub { display: block; margin-top: 14px; color: var(--dim); font-size: .9rem; }
+  section { padding: 56px 0; border-top: 1px solid var(--line); }
+  h2 { font-size: 1.5rem; margin-bottom: 28px; letter-spacing: -0.01em; }
+  .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 20px; }
+  .card { background: var(--bg2); border: 1px solid var(--line); border-radius: 14px; padding: 24px; }
+  .card h3 { font-size: 1.05rem; margin-bottom: 10px; }
+  .card p { color: var(--dim); font-size: .95rem; }
+  .quiet { color: var(--dim); font-size: .95rem; }
+  footer { padding: 48px 0 64px; border-top: 1px solid var(--line);
+    color: var(--dim); font-size: .85rem; text-align: center; }
+  footer a { color: var(--dim); }
+</style>
+</head>
+<body>
+
+<div class="wrap">
+  <header class="hero">
+    <img src="logo.svg" alt="Nryn spiral logo">
+    <h1>Nryn&nbsp;OS</h1>
+    <p class="tag"><strong>Your AI. Your files. Your machine.</strong><br>
+    Nothing leaves without asking.</p>
+    <a class="cta" href="mailto:alpha@nryn.ai?subject=Nryn%20OS%20alpha&body=Count%20me%20in.%20My%20laptop%3A%20">Join the alpha</a>
+    <span class="sub">Free alpha for Windows 10 refugees and Linux developers · Fall 2026</span>
+  </header>
+
+  <section>
+    <h2>An operating system that is actually AI-native</h2>
+    <div class="grid">
+      <div class="card">
+        <h3>Local-first intelligence</h3>
+        <p>A capable AI model runs on your laptop as a system service — answers, search, and summaries work offline, instantly. Cloud models are an option you switch on, never a dependency.</p>
+      </div>
+      <div class="card">
+        <h3>Consent, by architecture</h3>
+        <p>Every AI capability is opt-in and removable. Every agent action is sandboxed, permissioned, and logged in an audit trail you can read. No silent installs. No telemetry. No ads.</p>
+      </div>
+      <div class="card">
+        <h3>Any model. Any agent. Any skill.</h3>
+        <p>Built on the open standards that won — GGUF, the OpenAI-compatible API, MCP, and Agent Skills. Bring your own models, agents, and API keys; nothing is locked to ours.</p>
+      </div>
+      <div class="card">
+        <h3>Ask your files anything</h3>
+        <p>A private semantic index of the folders you choose. Find that document by what it means, not what it's named — in under a second, entirely on your machine.</p>
+      </div>
+      <div class="card">
+        <h3>Laptops done right</h3>
+        <p>Real suspend battery life, working fingerprint readers, sane scaling, atomic updates with one-click rollback. The boring things, done properly, first.</p>
+      </div>
+      <div class="card">
+        <h3>भारत के लिए</h3>
+        <p>Indic-first computing: on-device Indian-language AI, Indic locales and voice. A modern AI PC for the hundreds of millions of machines Windows left behind.</p>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Why now</h2>
+    <p class="quiet">Windows 10 support has ended, stranding hundreds of millions of working laptops. AI assistants are being forced into operating systems without consent — and users have noticed. Nryn is the other path: an OS where the AI works for you, on your hardware, under your control. Give an old laptop a new brain.</p>
+  </section>
+
+  <footer>
+    <p>© 2026 Nryn · <a href="mailto:hello@nryn.ai">hello@nryn.ai</a></p>
+    <p style="margin-top:8px">Nryn OS is an independent product based on Fedora Linux. It is not provided or supported by the Fedora Project or Red Hat. Fedora is a trademark of Red Hat, Inc.</p>
+  </footer>
+</div>
+
+</body>
+</html>
