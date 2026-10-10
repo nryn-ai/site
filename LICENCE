@@ -1,0 +1,22 @@
+Nryn OS Proprietary Licence
+SPDX-License-Identifier: LicenseRef-Nryn-OS
+
+Copyright (c) 2026 Nryn (nryn.ai). All rights reserved.
+
+This licence covers every work Nryn authors for Nryn OS: source code,
+configuration, documentation, images and branding, and the model weights
+Nryn trains. These works are the confidential and proprietary property of
+Nryn. No licence, express or implied, is granted to any person to use,
+copy, modify, distribute, or create derivative works of them except under
+a written commercial agreement with Nryn.
+
+Third-party components retain their own licences, reproduced in the
+notices (THIRD_PARTY_NOTICES, NOTICE, LICENSES/ or a model bundle's
+notice) that accompany every distribution of them. This licence does not
+change the terms of any third-party component.
+
+THE WORKS ARE PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND.
+
+[Pending counsel review; no company entity yet. Placeholder: replace with
+a counsel-drafted EULA before any distribution (founding plan §6.3,
+Phase 0 legal track).]
