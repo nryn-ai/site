@@ -5,7 +5,9 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Nryn OS — Your AI. Your files. Your machine.</title>
 <meta name="description" content="Nryn OS is an AI-native, local-first operating system for laptops. Your AI runs on your machine. Nothing leaves without asking.">
-<link rel="icon" href="logo.svg" type="image/svg+xml">
+<meta name="color-scheme" content="dark">
+<meta name="theme-color" content="#1B1B1E">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
 <style>
   :root {
     --bg: #1B1B1E; --bg2: #232327; --fg: #F4F4F5; --dim: #9C9CA3;
@@ -27,6 +29,10 @@
     border: 1px solid var(--fg); border-radius: 999px; color: var(--fg);
     text-decoration: none; font-weight: 600; transition: all .15s ease; }
   .cta:hover { background: var(--fg); color: var(--bg); }
+  a:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; }
+  .cta.soon { cursor: default; }
+  .cta.soon:hover { background: none; color: var(--fg); }
+  @media (prefers-reduced-motion: reduce) { .cta { transition: none; } }
   .sub { display: block; margin-top: 14px; color: var(--dim); font-size: .9rem; }
   section { padding: 56px 0; border-top: 1px solid var(--line); }
   h2 { font-size: 1.5rem; margin-bottom: 28px; letter-spacing: -0.01em; }
@@ -43,12 +49,13 @@
 <body>
 
 <div class="wrap">
+  <main>
   <header class="hero">
-    <img src="logo.svg" alt="Nryn spiral logo">
+    <img src="logo.svg" alt="Nryn OS logo" width="180" height="180">
     <h1>Nryn&nbsp;OS</h1>
     <p class="tag"><strong>Your AI. Your files. Your machine.</strong><br>
     Nothing leaves without asking.</p>
-    <a class="cta" href="mailto:alpha@nryn.ai?subject=Nryn%20OS%20alpha&body=Count%20me%20in.%20My%20laptop%3A%20">Join the alpha</a>
+    <p class="cta soon">Alpha sign-ups open soon</p>
     <span class="sub">Free alpha for Windows 10 refugees and Linux developers · Fall 2026</span>
   </header>
 
@@ -87,8 +94,10 @@
     <p class="quiet">Windows 10 support has ended, stranding hundreds of millions of working laptops. AI assistants are being forced into operating systems without consent — and users have noticed. Nryn is the other path: an OS where the AI works for you, on your hardware, under your control. Give an old laptop a new brain.</p>
   </section>
 
+  </main>
+
   <footer>
-    <p>© 2026 Nryn · <a href="mailto:hello@nryn.ai">hello@nryn.ai</a></p>
+    <p>© 2026 Nryn · nryn.ai</p>
     <p style="margin-top:8px">Nryn OS is an independent product based on Fedora Linux. It is not provided or supported by the Fedora Project or Red Hat. Fedora is a trademark of Red Hat, Inc.</p>
   </footer>
 </div>
